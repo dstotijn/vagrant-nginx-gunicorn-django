@@ -3,7 +3,7 @@
 A collection of configuration files for [Vagrant](http://www.vagrantup.com/), [Berkshelf](http://berkshelf.com/) and third party [Chef](http://www.opscode.com/chef/) cookbooks. It allows you to quickly provision a web development environment with nginx, gunicorn and django. 
 
 
-## Requirements 
+## Installation 
 
 This project uses Vagrant for VM management. Berkshelf and its Vagrant middleware plugin are used for cookbook management.
 
