@@ -24,10 +24,10 @@ This project uses Vagrant for VM management. Berkshelf and its Vagrant middlewar
 
 ## Usage
 
-Inside the repository directory, start the box with the usual Vagrant command:
+Inside the repository directory:
 
     $ vagrant up
 
-A new virtual machine is created with `opscode-ubuntu-12.04` as a base box, which will be downloaded if absent from the host machine. After booting, Berkshelf will automatically install the cookbooks and Chef Solo configures and deploys them on the guest machine.
+A virtual machine is created with `opscode-ubuntu-12.04` as a base box, which will be downloaded if absent from the host machine. After booting, Berkshelf automatically downloads and installs the cookbooks on your host machine and Chef Solo deploys them on the newly created guest machine.
 
 Refer to the [Vagrant Documentation](http://docs.vagrantup.com/v2/) for further instructions on how to interact with the guest machine.
